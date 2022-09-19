@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 40px;
+
+}
+*{
+    box-sizing: border-box;
+}
+.keys{
+    width: 90%;
+ 
+}
+.row , .rowDig , .rowSim{
+    width: 90%;
+    display: flex;
+}
+#inp {
+    height: 13mm;
+    width: 60%;
+    font-size: 24px;
+}
+
+.key ,.num{
+    width: 13mm;
+    height: 13mm;
+    border:1px solid black;
+border-radius: 4px;
+    padding: 10px;
+    margin: 8px;
+    cursor: pointer;
+
+
+}
+.btn{
+    border-radius: 4px;
+    border:1px solid black;
+    height: 13mm;
+    padding: 10px;
+    margin: 8px
+}
+.space
+{
+    border-radius: 4px;
+    border:1px solid black;
+    height: 13mm;
+    width: 60%;
+    cursor: pointer;
+}
+.cap
+{
+    border-radius: 4px;
+    border:1px solid black;
+    height: 13mm;
+    padding: 10px;
+    margin: 8px;
+    cursor: pointer; 
+}
